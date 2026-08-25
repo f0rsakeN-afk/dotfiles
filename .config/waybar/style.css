@@ -1,0 +1,218 @@
+/* @import "$HOME/.config/colors/colors.css" */
+@import "/home/zara/.cache/wal/colors-waybar.css";
+
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 9.5px;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 5px;
+    min-height: 0;
+}
+
+window,
+tooltip {
+    background-color: transparent;
+}
+
+#waybar {
+    background: rgba(20, 20, 20, 0);
+    border: 0;
+    border-radius: 0;
+}
+
+.modules-left {
+    background-color: rgba(20, 20, 20, 0.5);
+    border-radius: 10px;
+    margin: 0 0 2px 6px;
+}
+
+.modules-center {
+    background-color: rgba(20, 20, 20, 0.5);
+    border-radius: 10px;
+    margin: 0 0 2px;
+}
+
+.modules-right {
+    background-color: rgba(20, 20, 20, 0.5);
+    border-radius: 10px;
+    margin: 0 6px 2px 0;
+}
+
+#workspaces {
+    margin: 0;
+}
+
+#workspaces button {
+    color: @foreground;
+    border: none;
+    padding: 0 3px;
+}
+#workspaces button:hover {
+    color: @pink;
+    transition: none;
+}
+
+#workspaces button.active {
+    color: @pink;
+}
+
+#workspaces button.urgent {
+    background-color: @red;
+}
+
+#workspaces button.urgent {
+    background-color: @red;
+    padding: 0 8px;
+}
+
+#custom-weather,
+#memory,
+#custom-swap,
+#custom-mic,
+#custom-fan,
+#custom-download,
+#custom-brightness,
+#custom-nightlight,
+#custom-media,
+#custom-power,
+#tray,
+#bluetooth,
+#network,
+#battery,
+#pulseaudio,
+#clock,
+#custom-cpu-temp,
+#custom-cpu-freq,
+#custom-docker,
+#custom-uptime,
+#custom-mic-status,
+#custom-ports,
+#custom-load,
+#custom-gpu,
+#custom-disk,
+#custom-upload {
+    color: @foreground;
+    margin: 0;
+    padding: 0 7px;
+}
+
+#custom-power:hover,
+#bluetooth:hover,
+#network:hover,
+#battery:hover,
+#pulseaudio:hover,
+#clock:hover {
+    background-color: alpha(@select, 0.6);
+}
+
+#bluetooth {
+    color: @yellow;
+}
+
+#network {
+    color: @green;
+}
+
+#battery {
+    color: @purple;
+}
+
+#pulseaudio {
+    color: @orange;
+}
+
+#memory {
+    color: @red;
+}
+
+#custom-download {
+    color: @green;
+}
+
+#custom-upload {
+    color: @green;
+}
+
+#custom-fan {
+    color: @yellow;
+}
+
+#custom-cpu-temp {
+    color: @orange;
+}
+
+#custom-cpu-freq {
+    color: @blue;
+}
+
+#custom-load {
+    color: @pink;
+}
+
+#custom-gpu {
+    color: @turquoise;
+}
+
+#custom-disk {
+    color: @purple;
+}
+
+#custom-sep1,
+#custom-sep2,
+#custom-sep3,
+#custom-sep4,
+#custom-sep-left {
+    color: @gray;
+    margin: 0 3px;
+}
+
+#window-title {
+    color: @foreground;
+    margin: 0 5px;
+}
+
+#custom-docker {
+    color: @blue;
+}
+
+#custom-ports {
+    color: @teal-dark;
+}
+
+#custom-uptime {
+    color: @green;
+}
+
+#custom-mic-status {
+    color: @coral;
+}
+
+#custom-media {
+    color: @gold;
+}
+
+#clock {
+    color: @peach;
+}
+
+#custom-weather {
+    color: @magenta;
+}
+
+#custom-nightlight {
+    color: @lime;
+}
+
+#custom-power {
+    margin-left: 5px;
+    padding: 0 10px 0 10px;
+}
+
+tooltip {
+    background-color: rgba(20, 20, 20, 0.4);
+    color: #ffffff;
+    border: 0;
+    border-radius: 8px;
+    padding: 4px 8px;
+}

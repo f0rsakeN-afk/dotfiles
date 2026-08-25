@@ -1,0 +1,83 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "palette": {
+    "main-bg": "#24283b",
+    "terminal-red": "#f7768e",
+    "pistachio-green": "#9ece6a",
+    "terminal-green": "#73daca",
+    "terminal-yellow": "#e0af68",
+    "terminal-blue": "#7aa2f7",
+    "celeste-blue": "#b4f9f8",
+    "light-sky-blue": "#7dcfff",
+    "terminal-white": "#c0caf5",
+    "white-blue": "#a9b1d6",
+    "blue-bell": "#9aa5ce",
+    "pastel-grey": "#cfc9c2",
+    "terminal-magenta": "#bb9af7",
+    "terminal-black": "#414868"
+  },
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "p:terminal-blue",
+          "template": ">"
+        },
+        {
+          "type": "path",
+          "style": "plain",
+          "foreground": "p:terminal-magenta",
+          "template": "{{ .Path }}"
+        },
+        {
+          "type": "git",
+          "style": "plain",
+          "foreground": "p:light-sky-blue",
+          "template": "{{ .HEAD }}"
+        },
+        {
+          "type": "node",
+          "style": "plain",
+          "foreground": "p:pistachio-green",
+          "template": "{{ .Full }}"
+        },
+        {
+          "type": "python",
+          "style": "plain",
+          "foreground": "p:terminal-yellow",
+          "template": "{{ .Full }}"
+        },
+        {
+          "type": "go",
+          "style": "plain",
+          "foreground": "p:light-sky-blue",
+          "template": "{{ .Full }}"
+        },
+        {
+          "type": "rust",
+          "style": "plain",
+          "foreground": "p:terminal-red",
+          "template": "{{ .Full }}"
+        },
+        {
+          "type": "ruby",
+          "style": "plain",
+          "foreground": "p:terminal-magenta",
+          "template": "{{ .Full }}"
+        },
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "p:terminal-blue",
+          "template": " >"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "final_space": true,
+  "version": 4
+}

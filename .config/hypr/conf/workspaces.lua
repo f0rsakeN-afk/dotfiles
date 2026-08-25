@@ -1,0 +1,11 @@
+-- workspaces.lua
+hl.workspace("1", "eDP-1")
+hl.workspace("2", "eDP-1")
+hl.workspace("3", "eDP-1")
+hl.workspace("4", "eDP-1")
+hl.workspace("5", "eDP-1")
+hl.workspace("6", "eDP-1")
+hl.workspace("7", "eDP-1")
+hl.workspace("8", "eDP-1")
+hl.workspace("9", "eDP-1")
+hl.workspace("10", "eDP-1")

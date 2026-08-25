@@ -1,0 +1,25 @@
+@define-color background #0e060e;
+@define-color foreground #c2c0c2;
+@define-color select     #c2c0c2;
+
+@define-color pink       #f5c2e7;
+@define-color purple     #cba6f7;
+@define-color red        #f38ba8;
+@define-color orange     #fab387;
+@define-color yellow     #f9e2af;
+@define-color green      #a6e3a1;
+@define-color blue       #89b4fa;
+@define-color gray       #c2c0c2;
+@define-color magenta    #ff6f91;
+@define-color lime       #b8e986;
+@define-color navy       #0e060e;
+@define-color olive      #708238;
+@define-color maroon     #800000;
+@define-color turquoise  #40e0d0;
+@define-color indigo     #4b0082;
+@define-color coral      #ff7f50;
+@define-color gold       #ffd700;
+@define-color slate      #708090;
+@define-color peach      #ffdab9;
+@define-color crimson    #dc143c;
+@define-color teal-dark  #008080;

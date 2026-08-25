@@ -1,0 +1,80 @@
+* {
+    background-color: rgba(0,0,0,0);
+    foreground: rgba(194,192,194,1.0);
+    active-background: rgba(109,165,252,0.3);
+    active-foreground: rgba(194,192,194,1.0);
+    normal-background: rgba(0,0,0,0);
+    normal-foreground: rgba(194,192,194,1.0);
+    urgent-background: rgba(109,165,252,0.3);
+    urgent-foreground: rgba(194,192,194,1.0);
+    selected-active-background: rgba(109,165,252,0.5);
+    selected-active-foreground: rgba(194,192,194,1.0);
+    selected-normal-background: rgba(109,165,252,0.5);
+    selected-normal-foreground: rgba(194,192,194,1.0);
+    selected-urgent-background: rgba(109,165,252,0.5);
+    selected-urgent-foreground: rgba(194,192,194,1.0);
+    alternate-active-background: rgba(0,0,0,0);
+    alternate-active-foreground: rgba(194,192,194,1.0);
+    alternate-normal-background: rgba(0,0,0,0);
+    alternate-normal-foreground: rgba(194,192,194,1.0);
+    alternate-urgent-background: rgba(0,0,0,0);
+    alternate-urgent-foreground: rgba(194,192,194,1.0);
+    border-color: rgba(109,165,252,0.5);
+    spacing: 2;
+}
+
+#window {
+    background-color: rgba(20,20,30,0.65);
+    border: 2px;
+    border-radius: 16px;
+    border-color: rgba(109,165,252,0.5);
+    padding: 10px;
+}
+
+#mainbox { border: 0; }
+#message { border: 0; padding: 1px; }
+#textbox { text-color: rgba(194,192,194,1.0); }
+
+#inputbar {
+    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
+
+#textbox-prompt-colon {
+    expand: false;
+    str: ":";
+    margin: 0px 0.3em 0em 0em;
+    text-color: rgba(194,192,194,1.0);
+}
+
+#listview {
+    fixed-height: 0;
+    border: 0;
+    spacing: 4px;
+    scrollbar: false;
+    padding: 4px 0px 0px;
+}
+
+#element {
+    border: 0;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+#element.normal.normal { background-color: transparent; text-color: rgba(194,192,194,1.0); }
+#element.normal.urgent { background-color: transparent; text-color: rgba(194,192,194,1.0); }
+#element.normal.active { background-color: transparent; text-color: rgba(194,192,194,1.0); }
+#element.selected.normal { background-color: rgba(109,165,252,0.5); text-color: rgba(194,192,194,1.0); }
+#element.selected.urgent { background-color: rgba(109,165,252,0.5); text-color: rgba(194,192,194,1.0); }
+#element.selected.active { background-color: rgba(109,165,252,0.5); text-color: rgba(194,192,194,1.0); }
+#element.alternate.normal { background-color: transparent; text-color: rgba(194,192,194,1.0); }
+#element.alternate.urgent { background-color: transparent; text-color: rgba(194,192,194,1.0); }
+#element.alternate.active { background-color: transparent; text-color: rgba(194,192,194,1.0); }
+
+#scrollbar { width: 0px; border: 0; handle-width: 0px; padding: 0; }
+#sidebar { border: 0; }
+#button { text-color: rgba(194,192,194,1.0); }
+#button.selected { background-color: rgba(109,165,252,0.5); text-color: rgba(194,192,194,1.0); }
+#inputbar { spacing: 0; text-color: rgba(194,192,194,1.0); padding: 1px; border: 1px; border-radius: 10px; border-color: rgba(109,165,252,0.3); }
+#case-indicator { spacing: 0; text-color: rgba(194,192,194,1.0); }
+#entry { spacing: 0; text-color: rgba(194,192,194,1.0); }
+#prompt { spacing: 0; text-color: rgba(109,165,252,1.0); }

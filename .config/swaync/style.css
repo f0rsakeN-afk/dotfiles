@@ -1,0 +1,170 @@
+* {
+    outline: none;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 12px;
+    text-shadow: none;
+    color: #c2c0c2;
+    background-color: transparent;
+}
+
+.control-center {
+    background-color: rgba(14, 6, 14, 0.9);
+    border-radius: 0px;
+    border-left: 1px solid #cba6f7;
+    padding: 10px;
+}
+
+.notification-row .notification-background {
+    border-radius: 8px;
+    margin: 4px 0;
+}
+
+.notification {
+    background-color: rgba(26, 26, 26, 0.95);
+}
+
+.notification-content {
+    padding: 10px 12px;
+}
+
+.summary { font-size: 14px; font-weight: bold; color: #ffffff; }
+.time { font-size: 11px; color: #b0b0b0; }
+.body { font-size: 13px; color: #cccccc; }
+
+.notification-action > button {
+    padding: 5px 12px;
+    border-radius: 4px;
+    color: #ffffff;
+    background: #505050;
+    font-weight: bold;
+    border: none;
+}
+.notification-action > button:hover {
+    background: #cba6f7;
+    color: #0e060e;
+}
+
+.close-button {
+    background-color: #606060;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 4px 8px;
+}
+.close-button:hover {
+    background-color: #f38ba8;
+    color: #0e060e;
+}
+
+.notification.critical {
+    border-left: 3px solid #f38ba8;
+}
+.notification.low,
+.notification.normal {
+    border-left: 3px solid #89b4fa;
+}
+
+.widget-mpris {
+    margin: 8px 0;
+}
+
+.widget-mpris-player {
+    padding: 12px;
+    background-color: rgba(40, 40, 40, 0.9);
+    border-radius: 8px;
+}
+
+.widget-mpris-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.widget-mpris-subtitle {
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.widget-title {
+    padding: 12px 8px 8px;
+}
+
+.widget-title > label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.widget-title > button {
+    background: #606060;
+    border: none;
+    border-radius: 100px;
+    padding: 4px 12px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.widget-title > button:hover {
+    background: #f38ba8;
+    color: #0e060e;
+}
+
+/* Buttons Grid - THE BUTTONS LIKE WIFI BT MIC MUTE NIGHT SHOT THEME LOGOUT */
+.widget-buttons-grid > flowbox > flowboxchild {
+    padding: 2px;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button {
+    background: #505050;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 14px;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    min-width: 60px;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button:hover {
+    background: #cba6f7;
+    color: #0e060e;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked {
+    background: #a6e3a1;
+    color: #0e060e;
+}
+
+.widget-dnd > switch {
+    background: #505050;
+    border-radius: 100px;
+    padding: 2px;
+}
+.widget-dnd > switch:checked {
+    background: #a6e3a1;
+}
+
+scale trough {
+    background-color: #505050;
+    border-radius: 4px;
+    min-height: 6px;
+}
+trough highlight {
+    background: #89b4fa;
+    border-radius: 4px;
+}
+
+/* Labels text */
+.widget-buttons-grid > flowbox > flowboxchild > button label {
+    color: inherit;
+    font-size: 11px;
+}
+
+/* No scrollbar */
+scrollbar {
+    min-width: 0px;
+    min-height: 0px;
+    background: transparent;
+}
+scrollbar slider {
+    background: transparent;
+}
