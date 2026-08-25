@@ -11,7 +11,7 @@ hl.layer_rule({
 hl.window_rule({
     name = "opacity-apps",
     match = {
-        class = "^(kitty|brave-browser|com.brave.Browser|zen|zen-browser|chrome|google-chrome|chromium|com.google.Chrome|code|zed|spotify|thunar|discord|codium|obsidian|pavucontrol|foliate|ghostty|nemo|firefox)$",
+        class = "^(kitty|brave-browser|com.brave.Browser|zen|zen-browser|chrome|google-chrome|chromium|com.google.Chrome|code|dev.zed.Zed|spotify|spotifyd|thunar|discord|vesktop|codium|obsidian|org.pulseaudio.pavucontrol|foliate|com.mitchellh.ghostty|nemo|firefox|Firefox|libreoffice|VideoLyrics|Minecraft|Steam|whatsapp|Signal|ferdium|discord-systray|teamsforlinux| slack|discord-canary|swappy|way-displays|KeePassXC|audacity|gimp|inkscape|libreoffice-writer|libreoffice-calc|mpv|zenity|python3|VencordDesktop|Postman|com.obsproject.Studio|org.gnome.Evince|org.mate.Atril|okular|org.gnome.DocumentViewer|org.kde.okular|blueman-manager)$",
     },
     opacity = window_opacity .. " override " .. window_opacity .. " override 1.0 override",
 })
