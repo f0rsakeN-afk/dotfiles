@@ -8,6 +8,12 @@ hl.layer_rule({
     ignore_alpha = 0.15,
 })
 
+hl.layer_rule({
+    match = { namespace = "waybar" },
+    blur = true,
+    ignore_alpha = 0.0,
+})
+
 hl.window_rule({
     name = "opacity-apps",
     match = {

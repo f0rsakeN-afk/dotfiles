@@ -1,6 +1,6 @@
 {
     "modules-left": ["custom/power", "hyprland/workspaces","custom/sep-left","clock", "custom/media"],
-    "modules-center": ["hyprland/window-title"],
+    "modules-center": ["custom/window-title"],
     "modules-right": ["custom/weather","custom/download","custom/upload","custom/sep1","memory","custom/swap","custom/disk","custom/sep3","custom/uptime","custom/docker","tray","bluetooth","battery","custom/mic-status","pulseaudio","custom/brightness"],
 
     "custom/power": {
@@ -119,6 +119,12 @@
 "hyprland/window-title": {
   "max-length": 80,
   "separator": " | ",
+  "tooltip": false
+},
+
+"custom/window-title": {
+  "exec": "~/.config/waybar/scripts/window-title.sh",
+  "interval": 1,
   "tooltip": false
 },
 
