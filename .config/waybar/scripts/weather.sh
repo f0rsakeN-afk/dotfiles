@@ -1,6 +1,6 @@
 #!/bin/bash
 
-API_KEY="REDACTED_API_KEY"
+API_KEY="${OPENWEATHER_API_KEY:?Set OPENWEATHER_API_KEY in your environment}"
 CITY_ID="1283582"
 UNIT="metric"
 
